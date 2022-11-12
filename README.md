@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/Ki5bX0I.gif)
 
-English | [中文(简体)](https://github.com/IgorTimofeev/MineOS/blob/master/README-zh_CN.md) | [Русский](https://github.com/IgorTimofeev/MineOS/blob/master/README-ru_RU.md)
+English
 
 ## About
 
@@ -23,7 +23,7 @@ MineOS is a GUI based operating system for the OpenComputers Minecraft mod. It h
 
 The easiest way is to use default **wget** script. Insert an OpenOS floppy disk to computer, insert an Internet Card, turn computer on and type the following to console to install MineOS:
 
-	wget -f https://raw.githubusercontent.com/IgorTimofeev/MineOS/master/Installer/BIOS.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot
+	wget -f https://raw.githubusercontent.com/AnUnnamedDeveloper/MineOS-Lite/master/Installer/BIOS.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot
 
 You can paste it to console using middle mouse button or insert key (by default). After a moment, a nice system installer will be shown. You will be prompted to select your preferred language, boot volume (can be formatted if needed), create a user profile and customize some settings
 
