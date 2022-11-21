@@ -357,8 +357,8 @@ end
 bindGPUToScreen()
 status("Hold Alt to show boot options")
 
--- Waiting 1 sec for user to press Alt key
-local deadline, eventData = uptime() + 1
+-- Waiting 3 sec for user to press Alt key
+local deadline, eventData = uptime() + 3
 
 while uptime() < deadline do
 	eventData = { pullSignal(deadline - uptime()) }
